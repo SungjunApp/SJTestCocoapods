@@ -12,10 +12,16 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    
     - name: Install Cocoapods
       run: |
         gem install cocoapods
         pod install --project-directory=Example
-    - uses: michaelhenry/deploy-to-cocoapods-github-action@1.0.9
+        
+    - name: Deploy to Cocoapods
+      run: |
+        set -eo pipefail
+        pod lib lint --allow-warnings
+        pod trunk push --allow-warnings
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
