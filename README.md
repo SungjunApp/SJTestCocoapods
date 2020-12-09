@@ -1,6 +1,7 @@
 # SJTestCocoapods
 
-![example workflow name](https://github.com/sungjunapp/SJTestCocoapods/workflows/tests/badge.svg)
+![workflow.tests](https://github.com/sungjunapp/SJTestCocoapods/workflows/tests/badge.svg)
+![workflow.deploy](https://github.com/sungjunapp/SJTestCocoapods/workflows/deploy_to_cocoapods/badge.svg)
 [![Version](https://img.shields.io/cocoapods/v/SJTestCocoapods.svg?style=flat)](https://cocoapods.org/pods/SJTestCocoapods)
 [![License](https://img.shields.io/cocoapods/l/SJTestCocoapods.svg?style=flat)](https://cocoapods.org/pods/SJTestCocoapods)
 [![Platform](https://img.shields.io/cocoapods/p/SJTestCocoapods.svg?style=flat)](https://cocoapods.org/pods/SJTestCocoapods)
