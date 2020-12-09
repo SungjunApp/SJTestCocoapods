@@ -1,5 +1,5 @@
 PODS:
-  - SJTestCocoapods (0.1.0)
+  - SJTestCocoapods (1.0)
 
 DEPENDENCIES:
   - SJTestCocoapods (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SJTestCocoapods: 6357598213fc70b3ff7dc9266a9fadf0da8a7c8f
+  SJTestCocoapods: 1c158300492f1aac2cf7cbb3c2e1acd34d24f292
 
-PODFILE CHECKSUM: d0a16efb527808c1db741e608d597542787b3523
+PODFILE CHECKSUM: 157646237dee8d2a967d40d5c03c90262ab242ec
 
 COCOAPODS: 1.9.3
