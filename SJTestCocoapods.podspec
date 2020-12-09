@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJTestCocoapods'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SJTestCocoapods.'
+  s.version          = ENV['LIB_VERSION'] || '1.0'
+  s.summary          = 'This project will add a done button on your TextField and TextView.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'This project will add a done button on your TextField and TextView. Just import and turn on the accessory.'
                        DESC
 
-  s.homepage         = 'https://github.com/pixlee-accounts/SJTestCocoapods'
+  s.homepage         = 'https://github.com/sungjunapp/SJTestCocoapods'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pixlee-accounts' => 'sungjun.app@gmail.com' }
-  s.source           = { :git => 'https://github.com/pixlee-accounts/SJTestCocoapods.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sungjunapp/SJTestCocoapods.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.2'
 
-  s.source_files = 'SJTestCocoapods/Classes/**/*'
+  s.source_files = 'Classes/**/*'
+  
+  s.swift_version = '5.0'
+  
+  s.platforms = {
+      "ios": "14.2"
+  }
   
   # s.resource_bundles = {
   #   'SJTestCocoapods' => ['SJTestCocoapods/Assets/*.png']
