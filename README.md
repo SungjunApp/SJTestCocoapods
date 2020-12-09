@@ -1,6 +1,6 @@
 # SJTestCocoapods
 
-[![CI Status](https://img.shields.io/travis/pixlee-accounts/SJTestCocoapods.svg?style=flat)](https://travis-ci.org/sungjunapp/SJTestCocoapods)
+[![CI Status](https://img.shields.io/travis/sungjunapp/SJTestCocoapods.svg?style=flat)](https://travis-ci.org/sungjunapp/SJTestCocoapods)
 [![Version](https://img.shields.io/cocoapods/v/SJTestCocoapods.svg?style=flat)](https://cocoapods.org/pods/SJTestCocoapods)
 [![License](https://img.shields.io/cocoapods/l/SJTestCocoapods.svg?style=flat)](https://cocoapods.org/pods/SJTestCocoapods)
 [![Platform](https://img.shields.io/cocoapods/p/SJTestCocoapods.svg?style=flat)](https://cocoapods.org/pods/SJTestCocoapods)
