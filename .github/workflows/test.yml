@@ -15,4 +15,4 @@ jobs:
     - name: Run Test
       run: |
         set -eo pipefail
-        xcodebuild test -enableCodeCoverage YES -workspace Example/SJTestCocoapods.xcworkspace -scheme SJTestCocoapods-Example -sdk iphonesimulator -destination 'platform:iOS Simulator,id:3AD868C3-D148-4018-9F07-0F494049A707,OS:14.2,name:iPhone 8' | xcpretty
+        xcodebuild test -enableCodeCoverage YES -workspace Example/SJTestCocoapods.xcworkspace -scheme SJTestCocoapods-Example -sdk iphonesimulator -destination 'platform:iOS Simulator,OS:14.2,name:iPhone 8' | xcpretty
