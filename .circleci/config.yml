@@ -3,3 +3,20 @@ jobs:
   build-macos: 
     macos:  
       xcode: 11.3.0
+    steps: # a series of commands to run
+      - checkout  # pull down code from your version control system.
+      - run: pod install # Install CocoaPods dependencies
+      - run: fastlane scan # Run tests using Fastlane
+      
+      # Collect XML test results data to show in the UI, and save the same XML
+      # files under test-results folder in the Artifacts tab
+      - store_test_results:
+          path: test_output
+      - store_artifacts:
+          path: test_output
+          destination: scan-output
+      - run:
+          # run our tests using xcode's cli tool `xcodebuild`
+          name: Run Unit Tests
+          command: |
+            xcodebuild test -enableCodeCoverage YES -workspace Example/SJTestCocoapods.xcworkspace -scheme SJTestCocoapods-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=14.2,name=iPhone 8' | xcpretty
