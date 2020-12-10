@@ -1,6 +1,6 @@
 version: 2.1
 jobs: 
-  build-macos: 
+  build: 
     macos:  
       xcode: 11.3.0
     steps: # a series of commands to run
