@@ -38,33 +38,36 @@
 
 /* Begin PBXFileReference section */
 		00076E8FA362871C6B2D163E5060278B /* SJTestCocoapods-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SJTestCocoapods-Info.plist"; sourceTree = "<group>"; };
-		04A7692B69DC2600C49F2C97C4085220 /* Pods_SJTestCocoapods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SJTestCocoapods_Example.framework; path = "Pods-SJTestCocoapods_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A7692B69DC2600C49F2C97C4085220 /* Pods_SJTestCocoapods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJTestCocoapods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5D9723D2E0E365440B369ECF3A385D /* SJTestCocoapods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SJTestCocoapods.modulemap; sourceTree = "<group>"; };
-		0DDBF8B9657DA72CE2DFB10B59F78A29 /* Pods_SJTestCocoapods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SJTestCocoapods_Tests.framework; path = "Pods-SJTestCocoapods_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDBF8B9657DA72CE2DFB10B59F78A29 /* Pods_SJTestCocoapods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJTestCocoapods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B8EFD2BD92B2415EBAAB471F283844 /* Pods-SJTestCocoapods_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SJTestCocoapods_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1518C97DE196D0674CD5E0F4536E57F3 /* Pods-SJTestCocoapods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJTestCocoapods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		24F15927FE59958CFB7A7AA4010ADC29 /* Pods-SJTestCocoapods_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SJTestCocoapods_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		25353D9F1D2542F5E8265BDD26FC066C /* Pods-SJTestCocoapods_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SJTestCocoapods_Example.modulemap"; sourceTree = "<group>"; };
-		2CD6F5EAC553BC2F952B9D2AD94A97D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2CD6F5EAC553BC2F952B9D2AD94A97D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		37445DD5A9F00D2B1A30F20DCEEA86FF /* SJTestCocoapods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SJTestCocoapods.framework; path = SJTestCocoapods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37445DD5A9F00D2B1A30F20DCEEA86FF /* SJTestCocoapods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SJTestCocoapods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCB55B08E031A67A0ED2447B878221A /* SJTestCocoapods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SJTestCocoapods.debug.xcconfig; sourceTree = "<group>"; };
 		40E3DBDDE1795FC83CAB0AC1142E07D5 /* Pods-SJTestCocoapods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJTestCocoapods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4D37A21282038EB8690F29B500676A65 /* Pods-SJTestCocoapods_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SJTestCocoapods_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4E792117C06AE39CE11EA10BF9ACFB49 /* Pods-SJTestCocoapods_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SJTestCocoapods_Tests-dummy.m"; sourceTree = "<group>"; };
 		5B542A85AD942FA0643184085ED0C0EC /* Pods-SJTestCocoapods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJTestCocoapods_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5C03234025C8FD91006622F7 /* config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = config.yml; path = .circleci/config.yml; sourceTree = "<group>"; };
+		5C03234125C8FDB5006622F7 /* deploy_to_cocoapods.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = deploy_to_cocoapods.yml; path = .github/workflows/deploy_to_cocoapods.yml; sourceTree = "<group>"; };
+		5C03234225C8FDB5006622F7 /* test.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = test.yml; path = .github/workflows/test.yml; sourceTree = "<group>"; };
 		5D9EAB17F7F139DE86CBD67D847FD77A /* Pods-SJTestCocoapods_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SJTestCocoapods_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6BBAE62FED3ADCA52C4E4F19F21004C0 /* SJDoneKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SJDoneKeyboard.swift; path = Classes/SJDoneKeyboard.swift; sourceTree = "<group>"; };
 		6EC6E28903F8B4069308AC2D8BB80771 /* Pods-SJTestCocoapods_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SJTestCocoapods_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6FD69ED9D3F3629B8580843DA79178CA /* Pods-SJTestCocoapods_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SJTestCocoapods_Example-umbrella.h"; sourceTree = "<group>"; };
 		87D0497DBA49FC420670B8BE4A82953A /* SJTestCocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SJTestCocoapods.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A05F9698B2EAE0140D8157D349756AD9 /* Pods-SJTestCocoapods_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SJTestCocoapods_Tests.modulemap"; sourceTree = "<group>"; };
 		A2B61EA9EF69A0544372E25AF24D2178 /* Pods-SJTestCocoapods_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SJTestCocoapods_Example-dummy.m"; sourceTree = "<group>"; };
 		AF2A517D6BAB6AABC6A5A496B5ED5426 /* SJTestCocoapods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJTestCocoapods-umbrella.h"; sourceTree = "<group>"; };
-		C2611B86E4CC842DCD7DB2A30B1E5EE0 /* SJTestCocoapods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SJTestCocoapods.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2611B86E4CC842DCD7DB2A30B1E5EE0 /* SJTestCocoapods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SJTestCocoapods.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C33F41788D09A2057683ACC54C18A12F /* Pods-SJTestCocoapods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJTestCocoapods_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C77FCBDEC1B9921E78C9DD95DAFF5F25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C77FCBDEC1B9921E78C9DD95DAFF5F25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D69CAFAF16D3329D8B3360052EA015F7 /* Pods-SJTestCocoapods_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SJTestCocoapods_Example-Info.plist"; sourceTree = "<group>"; };
 		DBFB4D99F6013DE6098877802FE6DA5A /* Pods-SJTestCocoapods_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SJTestCocoapods_Tests-Info.plist"; sourceTree = "<group>"; };
 		EDC2DA321483721047ADEFB568FE62DF /* Pods-SJTestCocoapods_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SJTestCocoapods_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -129,6 +132,9 @@
 		3761708F5206D599389335D09B768A1F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				5C03234125C8FDB5006622F7 /* deploy_to_cocoapods.yml */,
+				5C03234225C8FDB5006622F7 /* test.yml */,
+				5C03234025C8FD91006622F7 /* config.yml */,
 				C77FCBDEC1B9921E78C9DD95DAFF5F25 /* LICENSE */,
 				2CD6F5EAC553BC2F952B9D2AD94A97D0 /* README.md */,
 				C2611B86E4CC842DCD7DB2A30B1E5EE0 /* SJTestCocoapods.podspec */,
@@ -696,8 +702,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
